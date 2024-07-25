@@ -39,7 +39,7 @@ Conclusion:
 The redesigned 99Invites website combines modern aesthetics with advanced features, providing a better, personalized, and interactive experience for users. It enhances the process of creating and managing wedding invitations, making it enjoyable and efficient.
 
 Additional Resources:
-GitHub Repository: 99Invites GitHub
+GitHub Repository: https://github.com/avinasxhhh/TechTitansReimagineRound2.git
 Website: https://99invites.avinasxhhh.in/
 Previous Website : https://99invites.com/
 
