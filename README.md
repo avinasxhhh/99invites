@@ -4,7 +4,10 @@ Project Title: 99Invites - Wedding Invitation Website
 Team Members:
 Avinash Mundhe, Aniket Kamble
 
-Demo: https://99invites.avinasxhhh.in/
+Resources: 
+GitHub Repository: https://github.com/avinasxhhh/TechTitansReimagineRound2.git 
+Website Demo: https://99invites.avinasxhhh.in/ 
+Previous Website : https://99invites.com/
 
 Problem Statement:
 The existing 99Invites website lacked accessibility for invitations on desktop devices and did not showcase their invitations properly. Additionally, the invitations were not interactive or understandable, and the themes were not well-followed, causing users difficulties in choosing a theme.
@@ -38,10 +41,6 @@ Micro Errors and Bugs: Encountered numerous small errors and bugs, but successfu
 Conclusion:
 The redesigned 99Invites website combines modern aesthetics with advanced features, providing a better, personalized, and interactive experience for users. It enhances the process of creating and managing wedding invitations, making it enjoyable and efficient.
 
-Additional Resources:
-GitHub Repository: https://github.com/avinasxhhh/TechTitansReimagineRound2.git
-Website: https://99invites.avinasxhhh.in/
-Previous Website : https://99invites.com/
 
 Contact Information:
 Avinash Mundhe - 8308395346 - avinashmundhe54@gmail.com
