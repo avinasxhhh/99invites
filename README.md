@@ -46,3 +46,5 @@ Previous Website : https://99invites.com/
 Contact Information:
 Avinash Mundhe - 8308395346 - avinashmundhe54@gmail.com
 Aniket Kamble - 70401 16924 - kambleaniket73@gmail.com
+
+Note: Please reload the page twice to ensure all animations load correctly. Last time, collaborators couldn't reload the page, causing some animations to be missing.
