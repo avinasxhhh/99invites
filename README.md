@@ -41,12 +41,15 @@ Locomotive JS Error: Implementing Locomotive JS caused issues with smooth scroll
 Spline 3D Model: Creating Spline 3D models caused the website to run very slowly at times, resulting in lag and slow loading.
 Media Content: Due to a lack of suitable videos, used Adobe Premiere Pro to edit and enhance existing videos to make the website more attractive.
 Micro Errors and Bugs: Encountered numerous small errors and bugs, but successfully resolved them to complete the project.
+
 Conclusion:
 The redesigned 99Invites website combines modern aesthetics with advanced features, providing a better, personalized, and interactive experience for users. It enhances the process of creating and managing wedding invitations, making it enjoyable and efficient.
 
 
 Contact Information:
+
 Avinash Mundhe - 8308395346 - avinashmundhe54@gmail.com
+
 Aniket Kamble - 70401 16924 - kambleaniket73@gmail.com
 
 Note: Please reload the page twice to ensure all animations load correctly. Last time, collaborators couldn't reload the page, causing some animations to be missing.
