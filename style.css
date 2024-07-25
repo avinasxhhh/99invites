@@ -1,0 +1,273 @@
+@font-face {
+    font-family: caveat;
+    src: url(./assets/fonts/caveat.woff2);
+}
+
+@font-face {
+    font-family: SansitaB;
+    src: url(./assets/fonts/Sansita-Bold.woff2);
+}
+
+@font-face {
+    font-family: Calistoga-Regular;
+    src: url(./assets/fonts/Calistoga-Regular.woff);
+}
+
+@font-face {
+    font-family: Merienda;
+    src: url(./assets/fonts/Merienda-Bold.woff);
+}
+
+@font-face {
+    font-family: Aladin;
+    src: url(./assets/fonts/Aladin-Regular.woff);
+}
+@font-face {
+    font-family: Lato;
+    src: url(./assets/fonts/Lato-Black.woff2);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(./assets/fonts/inter.woff2);
+}
+
+@font-face {
+    font-family: GilroyR;
+    src: url(./assets/fonts/Gilroy-Regular.woff2);
+}
+
+@font-face {
+    font-family: GilroyB;
+    src: url(./assets/fonts/Gilroy-Bold.woff2);
+}
+
+@font-face {
+    font-family: GilroyEB;
+    src: url(./assets/fonts/Gilroy-ExtraBold.woff2);
+}
+@font-face {
+    font-family: Anton;
+    src: url(./assets/fonts/Anton-Regular.woff2);
+}
+
+
+:root {
+    --Dark: #121212;
+    --DarkGrey: #1a1a1a;
+    --bg: #f6f6fe;
+    --para: #615A5A;
+    --white: #ffffff;
+    --red: #ff5c5c;
+    --purple: #4F2080;
+    --PurpleLight: #B476F4;
+}
+
+*::selection {
+    background-color: var(--PurpleLight);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+    background: #f1f1f1;
+
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #3d3d3d;
+}
+
+
+.one,
+.h-text {
+    -webkit-text-stroke: 1px var(--DarkGrey);
+}
+
+.menuanim1 {
+    clip-path: circle(var(--clip) at 97.3% 4.8%);
+}
+
+.menuanim2 {
+    clip-path: circle(var(--clip) at 97.3% 4.8%);
+}
+
+.carousel::before {
+    width: 500px;
+    height: 300px;
+    content: '';
+    /* background-image: linear-gradient(70deg, #DC422A, rgb(162, 0, 255)); */
+    position: absolute;
+    z-index: -1;
+    border-radius: 20% 30% 80% 10%;
+    filter: blur(150px);
+    top: 50%;
+    left: 70%;
+    transform: translate(-10%, -50%);
+    transition: 1s;
+}
+
+.carousel.showDetail::before {
+    transform: translate(-100%, -50%) rotate(90deg);
+    filter: blur(130px);
+}
+
+/* notify */
+
+.rainbow-bg,
+.linkbg:hover {
+    background: linear-gradient(45deg,
+            hsl(0, 89%, 83%),
+            /* Light Pink */
+            #e8b7ff,
+            /* Light Peach */
+            #e3a7ff,
+            /* Light Peach */
+            #9bc8ff,
+            /* Light Orange */
+            #FFB6B9,
+            /* Light Red */
+            #FDCB82,
+            /* Light Orange */
+            #C0C0C0,
+            /* Light Gray */
+            #C2E9FB,
+            /* Light Blue */
+            #E0C3FC
+            /* Light Purple */
+        );
+    background-size: 600% 600%;
+    animation: rainbowAnimation 15s ease infinite;
+
+}
+
+@keyframes rainbowAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* notify */
+
+/* FAQ */
+
+.faq-arrow {
+    transition: transform .4s ease;
+}
+
+.faq-arrow-bg {
+    transition: background-color .4s ease;
+}
+
+.faq-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .4s ease;
+}
+
+.faq-item.active .faq-content {
+    max-height: 200px;
+}
+
+.faq-item.active .faq-arrow {
+    transform: rotate(90deg);
+}
+
+.faq-item:hover .faq-arrow-bg {
+    background-color: #b476f4;
+    color: white;
+}
+
+/* FAQ */
+
+/* pricing */
+
+
+.line-through {
+    text-decoration: line-through;
+    color: #d1d5db;
+}
+
+.price-throght {
+    text-decoration: line-through;
+    color: #414141;
+}
+
+a.text-white {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a.text-white:hover {
+    background-color: var(--PurpleLight);
+    color: #ffffff;
+}
+
+/* pricing */
+
+/* footer */
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.flex-item {
+    width: 300px;
+    height: 50px;
+    background-color: chocolate;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#flex-item-1 {
+    width: 390px;
+    height: 160px;
+
+}
+
+#flex-item-2 {
+    width: 390px;
+    height: 160px;
+}
+
+#flex-item-3 {
+    width: 394px;
+    height: 160px;
+}
+
+.chaild-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.item {
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 4px;
+}
+
+/* footer */
