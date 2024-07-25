@@ -7,6 +7,7 @@ Avinash Mundhe, Aniket Kamble
 
 Note:
 Please reload the page twice to ensure all animations load correctly. Last time, collaborators couldn't reload the page, causing some animations to be missing.
+
 Please scan the QR code to see amazing designs for all invitations mentioned on the site.
 
 
