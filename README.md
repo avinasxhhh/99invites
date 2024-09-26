@@ -1,15 +1,5 @@
-﻿# TechTitansReimagineRound2
+
 Project Title: 99Invites - Wedding Invitation Website
-
-Team Members:
-Avinash Mundhe, Aniket Kamble
-
-
-Note:
-
-🛑 Please reload the page twice to ensure all animations load correctly. Last time, collaborators couldn't reload the page, causing some animations to be missing.
-
-Please scan the QR code to see amazing designs for all invitations mentioned on the site. 🛑
 
 
 Resources: 
@@ -57,5 +47,3 @@ The redesigned 99Invites website combines modern aesthetics with advanced featur
 Contact Information:
 
 Avinash Mundhe - 8308395346 - avinashmundhe54@gmail.com
-
-Aniket Kamble - 70401 16924 - kambleaniket73@gmail.com
